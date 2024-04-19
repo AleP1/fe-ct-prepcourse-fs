@@ -6,7 +6,7 @@ function sonIguales(x, y) {
   // 5, 5 ---> true 
   // 5, 8 ---> false 
   // Tu código:
-  if (x === y) {
+  if (str1.length === str2.length) {
     return true
   } else {
     return false
