@@ -9,6 +9,9 @@ function sumarHastaNConBreak(n) {
    for ( let index = 1; index <= n; index++ ) {
 
          result += index
+         if (result > 100) {
+            break;
+          }
 
    }
  
