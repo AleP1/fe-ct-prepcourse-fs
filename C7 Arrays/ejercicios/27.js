@@ -4,6 +4,18 @@ function dePalabrasAFrase(palabras) {
   // con un espacio entre cada palabra.
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
   // Tu código:
+  let fraseConcatenada = "";
+
+  for (let i = 0; i < palabras.length; i++) {
+    fraseConcatenada += palabras[i];
+
+    // Si no es la última palabra, agrega un espacio
+    if (i < palabras.length - 1) {
+      fraseConcatenada += " ";
+    }
+  }
+
+  return fraseConcatenada;
 }
 
 module.exports = dePalabrasAFrase;

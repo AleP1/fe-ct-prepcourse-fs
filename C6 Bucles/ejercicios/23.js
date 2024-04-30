@@ -15,7 +15,7 @@ function esNumeroPrimo(numero) {
     if (numero % i === 0) {
       return false;
     }
-  }
+git  }
 
   return true;
 
