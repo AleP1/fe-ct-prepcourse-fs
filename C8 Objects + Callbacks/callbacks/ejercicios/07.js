@@ -14,9 +14,6 @@ function filter(arrayOfStrings) {
          stringAArray.push( arrayOfStrings[index] )
       }
    }
-
-   console.log( stringAArray )
-
    return stringAArray
 
 

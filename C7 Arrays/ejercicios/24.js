@@ -20,8 +20,6 @@ function continueStatement(num) {
     }
 
   }
-
-  console.log(numArray) 
   return numArray
 
 }

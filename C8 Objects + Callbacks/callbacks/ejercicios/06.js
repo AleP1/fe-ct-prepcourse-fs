@@ -10,6 +10,7 @@ function map(array, cb) {
   for (let index = 0; index < array.length; index++) {
     
     newArray.push( array[index] )
+    
   
  }
 
