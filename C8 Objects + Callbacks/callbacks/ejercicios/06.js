@@ -4,18 +4,12 @@ function map(array, cb) {
   // Retorna el nuevo arreglo.
   // Tu código:
 
-  let newArray = []
 
-  
-  for (let index = 0; index < array.length; index++) {
-    
-    newArray.push( array[index] )
-    
-  
- }
-
-  return newArray
-
+  let newArray = [];
+  for (let i = 0; i < array.length; i++) {
+    newArray.push(cb(array[i]));
+  }
+  return newArray;
 
 }
 

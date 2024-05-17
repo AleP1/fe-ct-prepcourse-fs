@@ -7,11 +7,7 @@ function esPalindromo(string) {
   // Tu código:
 
   const stringArrayChange = string.split("")
-  console.log(stringArrayChange )
-
   const stringReverse = stringArrayChange.reverse()
-  console.log(stringReverse)
-
   const stringJoin = stringReverse.join("")
 
   if( string === stringJoin ){

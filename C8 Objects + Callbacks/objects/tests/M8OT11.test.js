@@ -4,9 +4,9 @@ test('Debe invocar el método del objeto', function () {
   const object = {
     x: 0,
     incrementX: function () {
-      this.x;
+      this.x++;
     },
   };
   invocarMetodo(object, 'incrementX');
-  expect(object.x).toBe(0);
+  expect(object.x).toBe(1);
 });

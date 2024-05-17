@@ -11,9 +11,6 @@ function promedioResultadosTest(resultadosTest) {
 
   prom = total / resultadosTest.length
 
-  console.log(resultadosTest)
-  console.log(resultadosTest.length)
-
   return prom
 }
 

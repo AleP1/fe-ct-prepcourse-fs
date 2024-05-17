@@ -18,7 +18,6 @@ function breakStatement(num) {
 
   }
 
-  console.log(numArray)
   return numArray
 }
 

@@ -5,7 +5,6 @@ function ordenarArray(array) {
 
   const newArray = array.sort()
 
-  console.log(newArray)
 
   return newArray
 }

@@ -4,7 +4,6 @@ function encontrarElementoRepetido(numeros) {
   // Tu código:
 
   const orderedArray = numeros.sort()
-  console.log(orderedArray)
 
   let viewNumbers = [];
 
